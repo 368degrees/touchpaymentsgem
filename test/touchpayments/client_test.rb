@@ -31,9 +31,9 @@ describe TouchPayments::Client do
         @config = {
           :api_key    => 'ak',
           :format     => 'of',
-          :endpoint   => 'ep',
+          :endpoint   => 'http://www.example.com',
           :user_agent => 'ua',
-          :method     => 'hm',
+          :method     => 'get',
         }
       end
 

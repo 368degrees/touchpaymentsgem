@@ -26,4 +26,6 @@ Gem::Specification.new do |spec|
   
   spec.add_dependency "faraday"
   spec.add_dependency "json"
+  spec.add_dependency "multi_json"
+  spec.add_dependency "activemodel"
 end
